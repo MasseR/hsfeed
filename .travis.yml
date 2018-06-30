@@ -8,7 +8,7 @@ before_script:
   - mkdir -p ~/.config/nixpkgs
 
 script:
-  nix build
+  exit 1
 
 cache:
   directories:
